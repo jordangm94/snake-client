@@ -23,6 +23,9 @@ const handleUserInput = function (data) {
   else if (data === "d") {
     connection.write("Move: right");  
   }
+  else if (data === "p") {
+    connection.write("Say: GG")
+  }
 };
 
 module.exports = {
